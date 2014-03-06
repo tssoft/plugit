@@ -16,7 +16,9 @@ var plugIt = (function($) {
                     this.settings = $.extend(this.settings, options);
                 }
                 initSettings.apply(instance, arguments);
-                instance.init.apply(instance, arguments);
+                if(instance.init) {
+                    instance.init.apply(instance, arguments);
+                }
 	            return this;
 	            	
 	        } else {
