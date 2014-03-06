@@ -1,3 +1,6 @@
+/*!
+* GitHub: https://github.com/tssoft/plugit
+*/
 var plugIt = (function($) {
     return function(name, prototype) {
 		$.fn[name] = function(method) {
