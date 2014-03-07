@@ -12,7 +12,7 @@ A simple tool for easy creating jQuery plugin from plain object.
 ###Usage
 
 ```javascript
-plugIt('textColor', {
+plugit('textColor', {
   settings: {
       color: 'red',
       text: 'Like a Mars'
