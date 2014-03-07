@@ -1,7 +1,7 @@
 /*!
  * GitHub: https://github.com/tssoft/plugit
  */
-var plugIt = (function ($) {
+var plugit = (function ($) {
     return function (name, prototype) {
         $.fn[name] = function (method) {
             var instanceDataName = 'plgt-' + name + '-instance',
