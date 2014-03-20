@@ -1,5 +1,6 @@
 /*!
  * GitHub: https://github.com/tssoft/plugit
+ * About (RU): http://ts-soft.ru/blog/plugit/ 
  */
 var plugit = (function ($) {
     return function (name, prototype) {
