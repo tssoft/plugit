@@ -52,3 +52,7 @@ Target jQuery-object.
 ####settings
 
 Plugin settings. When plugin applies, this property extends with new settings.
+
+##About
+######Russian
+http://ts-soft.ru/blog/plugit/
